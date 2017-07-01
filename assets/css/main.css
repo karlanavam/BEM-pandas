@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#2CA58D;
+}
+
+.font-delirius {
+    font-family: 'Delius Unicase', cursive;
+}
+
+.font-comingSoon {
+    font-family: 'Coming Soon', cursive;
+}
+
+h1-bg {
+    background-color: #2CA58D; 
+} 
+
+header-bg {
+    background-color: #F46197;
+}
+
+
+
+
+
