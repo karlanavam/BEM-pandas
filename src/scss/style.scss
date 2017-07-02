@@ -1,0 +1,51 @@
+@import '_variables';
+@import '_grid';
+@import '_mixin';
+	
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background: $blanco;
+}
+
+.lista {
+    /* CSS declarations for `.block` */
+    &__titulo {
+        /* CSS declarations for `.block__element` */
+		@include titulo;
+    }
+	&__item {
+        /* CSS declarations for `.block__element` */
+		@include item;
+		&--a{
+			text-decoration: none;
+			color: $rosa;
+			&:hover{
+				color: $verde;
+				}
+		}
+    }
+}
+
+.img-style {
+    /* CSS declarations for `.block` */
+    &__width {
+        /* CSS declarations for `.block__element` */
+		width: $img-width;
+		display: block;
+    }
+}
+
+.parrafos {
+    /* CSS declarations for `.block` */
+    &__textos {
+        /* CSS declarations for `.block__element` */
+		visibility: hidden;
+		font-family: $font-comingSoon;
+		text-align: justify;
+    }
+}
