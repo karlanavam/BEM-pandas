@@ -16,7 +16,7 @@ botonRestaura.addEventListener("click", restaurarImagenes);
 
 function restaurarImagenes() {
   for(var i=0; i < span.length; i++){
-    span[i].parentNode.style.display = "flex";
+    span[i].parentNode.style.display = "block";
   }
 }
 

@@ -1,0 +1,17 @@
+@mixin titulo {
+	font-family: $font-delirius;
+	text-align: center;
+	color: $blanco;
+	background: $verde;
+
+}
+
+@mixin item {
+	font-family: $font-comingSoon;
+	font-size: $font-size;
+	list-style: none;
+	display: inline-block;
+	padding-left: $padding-l;
+	color: $rosa;
+	text-align: center;
+}
